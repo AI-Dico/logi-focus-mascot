@@ -1,26 +1,58 @@
 # logi focus mascot
 
-> **logi focus** 마스코트 · 애니메이션 스프라이트 시안
-> Animated sprite set of the logi focus plush mascot — 3 colorways × 4 states.
+> **logi focus** 마스코트 · 애니메이션 스프라이트 세트
+> Animated sprite set of the logi focus plush mascot — **3 colorways × 21 states** (4 base + 17 emotions).
 
 크림 실리콘 플러시 키링에서 출발한 **logi focus** 마스코트를, 게임/앱에 바로 쓸 수 있는
 투명 배경 애니메이션 스프라이트로 만든 세트입니다. 세 가지 컬러(크림·블루·핑크)와
-네 가지 동작 상태(idle · focus · walk · success)로 구성됩니다.
+기본 4상태 + 17가지 감정 표현으로 구성됩니다. 눈·입은 최소한으로 두고 자세·타이밍으로 감정을 표현합니다.
 
 ---
 
-## Animations
+## 기본 상태 · Base states
 
-| | idle | focus | walk | success |
-|:--:|:--:|:--:|:--:|:--:|
-| **Cream** | ![cream idle](./animations/cream-idle.gif) | ![cream focus](./animations/cream-focus.gif) | ![cream walk](./animations/cream-walk.gif) | ![cream success](./animations/cream-success.gif) |
-| **Blue** | ![blue idle](./animations/blue-idle.gif) | ![blue focus](./animations/blue-focus.gif) | ![blue walk](./animations/blue-walk.gif) | ![blue success](./animations/blue-success.gif) |
-| **Pink** | ![pink idle](./animations/pink-idle.gif) | ![pink focus](./animations/pink-focus.gif) | ![pink walk](./animations/pink-walk.gif) | ![pink success](./animations/pink-success.gif) |
+| 상태 | Cream | Blue | Pink |
+|:--|:--:|:--:|:--:|
+| **중립/대기** `idle` | ![](./animations/cream-idle.gif) | ![](./animations/blue-idle.gif) | ![](./animations/pink-idle.gif) |
+| **집중** `focus` | ![](./animations/cream-focus.gif) | ![](./animations/blue-focus.gif) | ![](./animations/pink-focus.gif) |
+| **걷기** `walk` | ![](./animations/cream-walk.gif) | ![](./animations/blue-walk.gif) | ![](./animations/pink-walk.gif) |
+| **성취** `success` | ![](./animations/cream-success.gif) | ![](./animations/blue-success.gif) | ![](./animations/pink-success.gif) |
 
-- **idle** — 잔잔한 숨쉬기 + 중간에 활짝 웃는 표정
-- **focus** — 눈을 지그시 감고 집중 모드에 들어가는 상태
-- **walk** — 발을 교대로 내딛는 걷기 루프
-- **success** — 양팔 만세 + 스쿼시-스트레치 축하 바운스
+- **idle** 잔잔한 숨쉬기 + 웃음 · **focus** 눈 감고 집중 · **walk** 걷기 루프 · **success** 만세 축하
+
+## 코어 감정 · Core emotions
+
+| 상태 | Cream | Blue | Pink |
+|:--|:--:|:--:|:--:|
+| **기쁨** `joy` | ![](./animations/cream-joy.gif) | ![](./animations/blue-joy.gif) | ![](./animations/pink-joy.gif) |
+| **슬픔** `sad` | ![](./animations/cream-sad.gif) | ![](./animations/blue-sad.gif) | ![](./animations/pink-sad.gif) |
+| **놀람** `surprise` | ![](./animations/cream-surprise.gif) | ![](./animations/blue-surprise.gif) | ![](./animations/pink-surprise.gif) |
+| **격려** `encouraging` | ![](./animations/cream-encouraging.gif) | ![](./animations/blue-encouraging.gif) | ![](./animations/pink-encouraging.gif) |
+| **경고** `alert` | ![](./animations/cream-alert.gif) | ![](./animations/blue-alert.gif) | ![](./animations/pink-alert.gif) |
+
+## 확장 감정 · Extended emotions
+
+| 상태 | Cream | Blue | Pink |
+|:--|:--:|:--:|:--:|
+| **평온** `relaxed` | ![](./animations/cream-relaxed.gif) | ![](./animations/blue-relaxed.gif) | ![](./animations/pink-relaxed.gif) |
+| **기대** `anticipation` | ![](./animations/cream-anticipation.gif) | ![](./animations/blue-anticipation.gif) | ![](./animations/pink-anticipation.gif) |
+| **걱정** `anxious` | ![](./animations/cream-anxious.gif) | ![](./animations/blue-anxious.gif) | ![](./animations/pink-anxious.gif) |
+| **분노** `angry` | ![](./animations/cream-angry.gif) | ![](./animations/blue-angry.gif) | ![](./animations/pink-angry.gif) |
+| **졸림** `sleepy` | ![](./animations/cream-sleepy.gif) | ![](./animations/blue-sleepy.gif) | ![](./animations/pink-sleepy.gif) |
+| **지루함** `bored` | ![](./animations/cream-bored.gif) | ![](./animations/blue-bored.gif) | ![](./animations/pink-bored.gif) |
+| **사랑** `love` | ![](./animations/cream-love.gif) | ![](./animations/blue-love.gif) | ![](./animations/pink-love.gif) |
+| **결심** `determined` | ![](./animations/cream-determined.gif) | ![](./animations/blue-determined.gif) | ![](./animations/pink-determined.gif) |
+
+## 보조 감정 · More expressions
+
+| 상태 | Cream | Blue | Pink |
+|:--|:--:|:--:|:--:|
+| **의심** `thinking` | ![](./animations/cream-thinking.gif) | ![](./animations/blue-thinking.gif) | ![](./animations/pink-thinking.gif) |
+| **혐오** `disgust` | ![](./animations/cream-disgust.gif) | ![](./animations/blue-disgust.gif) | ![](./animations/pink-disgust.gif) |
+| **부끄러움** `shy` | ![](./animations/cream-shy.gif) | ![](./animations/blue-shy.gif) | ![](./animations/pink-shy.gif) |
+| **산만** `distracted` | ![](./animations/cream-distracted.gif) | ![](./animations/blue-distracted.gif) | ![](./animations/pink-distracted.gif) |
+
+---
 
 ## Sprite sheets
 
@@ -28,7 +60,7 @@
 
 ```
 spritesheets/<color>/
-├── sprite-sheet-alpha.png   # 투명 배경 아톰라스
+├── sprite-sheet-alpha.png   # 투명 배경 아톰라스 (21상태)
 ├── manifest.json            # 런타임 좌표 (frame_layout · fps · loop)
 └── frames/<state>/*.png     # 상태별 개별 프레임
 ```
