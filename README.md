@@ -67,6 +67,35 @@ Long idle loops stitched from separately generated segments (breath · smile · 
 
 ---
 
+## 롱 감정 · Long emotions
+
+각 감정을 "숨쉬기 → 감정 → 숨쉬기" 8초 루프로 확장했습니다. 감정별 중립 포즈(frame-0)에서
+미세 호흡을 합성해 앞뒤 세그먼트가 같은 포즈를 공유하므로 이음새가 자연스럽습니다.
+Each emotion expanded into an 8-second "breathe → emote → breathe" loop (72 frames · 9fps),
+with breathing synthesized from each emotion's own neutral pose so the seams stay clean.
+
+| 감정 | Cream | Blue | Pink |
+|:--|:--:|:--:|:--:|
+| **기쁨** · joy | ![](./animations/long-emotions/cream-joy-long.gif) | ![](./animations/long-emotions/blue-joy-long.gif) | ![](./animations/long-emotions/pink-joy-long.gif) |
+| **슬픔** · sad | ![](./animations/long-emotions/cream-sad-long.gif) | ![](./animations/long-emotions/blue-sad-long.gif) | ![](./animations/long-emotions/pink-sad-long.gif) |
+| **놀람** · surprise | ![](./animations/long-emotions/cream-surprise-long.gif) | ![](./animations/long-emotions/blue-surprise-long.gif) | ![](./animations/long-emotions/pink-surprise-long.gif) |
+| **응원** · encouraging | ![](./animations/long-emotions/cream-encouraging-long.gif) | ![](./animations/long-emotions/blue-encouraging-long.gif) | ![](./animations/long-emotions/pink-encouraging-long.gif) |
+| **경계** · alert | ![](./animations/long-emotions/cream-alert-long.gif) | ![](./animations/long-emotions/blue-alert-long.gif) | ![](./animations/long-emotions/pink-alert-long.gif) |
+| **편안** · relaxed | ![](./animations/long-emotions/cream-relaxed-long.gif) | ![](./animations/long-emotions/blue-relaxed-long.gif) | ![](./animations/long-emotions/pink-relaxed-long.gif) |
+| **기대** · anticipation | ![](./animations/long-emotions/cream-anticipation-long.gif) | ![](./animations/long-emotions/blue-anticipation-long.gif) | ![](./animations/long-emotions/pink-anticipation-long.gif) |
+| **불안** · anxious | ![](./animations/long-emotions/cream-anxious-long.gif) | ![](./animations/long-emotions/blue-anxious-long.gif) | ![](./animations/long-emotions/pink-anxious-long.gif) |
+| **화남** · angry | ![](./animations/long-emotions/cream-angry-long.gif) | ![](./animations/long-emotions/blue-angry-long.gif) | ![](./animations/long-emotions/pink-angry-long.gif) |
+| **졸림** · sleepy | ![](./animations/long-emotions/cream-sleepy-long.gif) | ![](./animations/long-emotions/blue-sleepy-long.gif) | ![](./animations/long-emotions/pink-sleepy-long.gif) |
+| **지루** · bored | ![](./animations/long-emotions/cream-bored-long.gif) | ![](./animations/long-emotions/blue-bored-long.gif) | ![](./animations/long-emotions/pink-bored-long.gif) |
+| **사랑** · love | ![](./animations/long-emotions/cream-love-long.gif) | ![](./animations/long-emotions/blue-love-long.gif) | ![](./animations/long-emotions/pink-love-long.gif) |
+| **결의** · determined | ![](./animations/long-emotions/cream-determined-long.gif) | ![](./animations/long-emotions/blue-determined-long.gif) | ![](./animations/long-emotions/pink-determined-long.gif) |
+| **생각** · thinking | ![](./animations/long-emotions/cream-thinking-long.gif) | ![](./animations/long-emotions/blue-thinking-long.gif) | ![](./animations/long-emotions/pink-thinking-long.gif) |
+| **불쾌** · disgust | ![](./animations/long-emotions/cream-disgust-long.gif) | ![](./animations/long-emotions/blue-disgust-long.gif) | ![](./animations/long-emotions/pink-disgust-long.gif) |
+| **수줍** · shy | ![](./animations/long-emotions/cream-shy-long.gif) | ![](./animations/long-emotions/blue-shy-long.gif) | ![](./animations/long-emotions/pink-shy-long.gif) |
+| **산만** · distracted | ![](./animations/long-emotions/cream-distracted-long.gif) | ![](./animations/long-emotions/blue-distracted-long.gif) | ![](./animations/long-emotions/pink-distracted-long.gif) |
+
+---
+
 ## Sprite sheets
 
 `spritesheets/<color>/` 에 실사용 에셋이 들어 있습니다.
