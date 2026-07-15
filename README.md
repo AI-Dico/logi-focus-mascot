@@ -54,6 +54,19 @@
 
 ---
 
+## 롱 idle · Long idle loops
+
+세그먼트 분할 생성(숨쉬기·웃음·깜빡, 각 8프레임 · 중립 포즈로 시작/종료) 후 이어붙인 긴 idle 루프입니다.
+Long idle loops stitched from separately generated segments (breath · smile · blink), each anchored to the same neutral pose.
+
+| 버전 | Cream | Blue | Pink |
+|:--|:--:|:--:|:--:|
+| **D** raw 스티치 · 4초 (실제 24프레임) | ![](./animations/long/cream-idle-D-raw.gif) | ![](./animations/long/blue-idle-D-raw.gif) | ![](./animations/long/pink-idle-D-raw.gif) |
+| **E** 세그+모션보간 · 8초 | ![](./animations/long/cream-idle-E-8s.gif) | ![](./animations/long/blue-idle-E-8s.gif) | ![](./animations/long/pink-idle-E-8s.gif) |
+| **F** 시퀀스 연출 · 9.5초 (숨쉬다 가끔 웃고 깜빡) | ![](./animations/long/cream-idle-F-10s.gif) | ![](./animations/long/blue-idle-F-10s.gif) | ![](./animations/long/pink-idle-F-10s.gif) |
+
+---
+
 ## Sprite sheets
 
 `spritesheets/<color>/` 에 실사용 에셋이 들어 있습니다.
